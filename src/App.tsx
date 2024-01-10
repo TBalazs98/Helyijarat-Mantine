@@ -6,7 +6,7 @@ import {
     Button,
     Group,
     Image,
-    Stack,
+    Stack, Title,
     useMantineColorScheme,
 } from "@mantine/core";
 import {useDisclosure} from "@mantine/hooks";
@@ -53,6 +53,7 @@ function App() {
                         size="sm"
                     />
                     <Image src={"src/assets/crest.png"} w={"30px"}/>
+                    <Title order={2}>{t('Navigation.Title')}</Title>
                     <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}}>
                         <Button variant="subtle" onClick={() => navigate('/')}>{t('Navigation.Home')}</Button>
                         <Button variant="subtle" onClick={() => navigate('/map')}>{t('Navigation.Map')}</Button>

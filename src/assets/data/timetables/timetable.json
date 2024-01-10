@@ -1,0 +1,1775 @@
+{
+  "name": "2023 menetrend",
+  "validFrom": "2018-11-15",
+  "routeLength": 27,
+  "routes": [
+    {
+      "days": [false, true, true, true, true, true, false],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 5,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 5,
+            "minute": 1
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 5,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 5,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 5,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 5,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 5,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 5,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 5,
+            "minute": 17
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 5,
+            "minute": 20
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 5,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 5,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 5,
+            "minute": 26
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 5,
+            "minute": 28
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 5,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 5,
+            "minute": 32
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 5,
+            "minute": 34
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 5,
+            "minute": 36
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 5,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 5,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 5,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 5,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 5,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 5,
+            "minute": 50
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 5,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 5,
+            "minute": 53
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 5,
+            "minute": 56
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, false],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 6,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 6,
+            "minute": 1
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 6,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 6,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 6,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 6,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 6,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 6,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 6,
+            "minute": 17
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 6,
+            "minute": 20
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 6,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 6,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 6,
+            "minute": 26
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 6,
+            "minute": 28
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 6,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 6,
+            "minute": 32
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 6,
+            "minute": 34
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 6,
+            "minute": 36
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 6,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 6,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 6,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 6,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 6,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 6,
+            "minute": 50
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 6,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 6,
+            "minute": 52
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 6,
+            "minute": 54
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, true],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 6,
+            "minute": 55
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 6,
+            "minute": 56
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 6,
+            "minute": 58
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 7,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 7,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 7,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 7,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 7,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 7,
+            "minute": 12
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 7,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 7,
+            "minute": 18
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 7,
+            "minute": 20
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 7,
+            "minute": 21
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 7,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 7,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 7,
+            "minute": 27
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 7,
+            "minute": 29
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 7,
+            "minute": 31
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 7,
+            "minute": 33
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 7,
+            "minute": 35
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 7,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 7,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 7,
+            "minute": 42
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 7,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 7,
+            "minute": 46
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 7,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 7,
+            "minute": 50
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, true],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 8,
+            "minute": 42
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 8,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 8,
+            "minute": 44
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 8,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 8,
+            "minute": 46
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 8,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 8,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 8,
+            "minute": 53
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 8,
+            "minute": 55
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 8,
+            "minute": 58
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 9,
+            "minute": 1
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 9,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 9,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 9,
+            "minute": 7
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 9,
+            "minute": 9
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 9,
+            "minute": 11
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 9,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 9,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 9,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 9,
+            "minute": 27
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 9,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 9,
+            "minute": 32
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 9,
+            "minute": 34
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 9,
+            "minute": 37
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 9,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 9,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 9,
+            "minute": 42
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, true],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 10,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 10,
+            "minute": 11
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 10,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 10,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 10,
+            "minute": 18
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 10,
+            "minute": 20
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 10,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 10,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 10,
+            "minute": 27
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 10,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 10,
+            "minute": 33
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 10,
+            "minute": 35
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 10,
+            "minute": 36
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 10,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 10,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 10,
+            "minute": 42
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 10,
+            "minute": 44
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 10,
+            "minute": 46
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 10,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 10,
+            "minute": 50
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 10,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 10,
+            "minute": 53
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 10,
+            "minute": 55
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 10,
+            "minute": 58
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 10,
+            "minute": 59
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 11,
+            "minute": 1
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 11,
+            "minute": 3
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, false],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 12,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 12,
+            "minute": 41
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 12,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 12,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 12,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 12,
+            "minute": 50
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 12,
+            "minute": 53
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 12,
+            "minute": 55
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 12,
+            "minute": 57
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 13,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 13,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 13,
+            "minute": 6
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 13,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 13,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 13,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 13,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 13,
+            "minute": 17
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 13,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 13,
+            "minute": 27
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 13,
+            "minute": 32
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 13,
+            "minute": 34
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 13,
+            "minute": 37
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 13,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 13,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 13,
+            "minute": 42
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, false],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 14,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 14,
+            "minute": 16
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 14,
+            "minute": 18
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 14,
+            "minute": 20
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 14,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 14,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 14,
+            "minute": 28
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 14,
+            "minute": 32
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 14,
+            "minute": 35
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 14,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 14,
+            "minute": 40
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 14,
+            "minute": 41
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 14,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 14,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 14,
+            "minute": 47
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 14,
+            "minute": 49
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 14,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 14,
+            "minute": 53
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 14,
+            "minute": 55
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 14,
+            "minute": 58
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 15,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 15,
+            "minute": 2
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 15,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 15,
+            "minute": 6
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 15,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 15,
+            "minute": 10
+          }
+        }
+      ]
+    },
+    {
+      "days": [false, true, true, true, true, true, false],
+      "elements": [
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 16,
+            "minute": 0
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 16,
+            "minute": 1
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 16,
+            "minute": 3
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 16,
+            "minute": 5
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 16,
+            "minute": 8
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 16,
+            "minute": 10
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 16,
+            "minute": 13
+          }
+        },
+        {
+          "stopId": 8,
+          "stopName": "Balog sarok - Virág út",
+          "time": {
+            "hour": 16,
+            "minute": 15
+          }
+        },
+        {
+          "stopId": 9,
+          "stopName": "Virág út - Zöldfa út",
+          "time": {
+            "hour": 16,
+            "minute": 17
+          }
+        },
+        {
+          "stopId": 10,
+          "stopName": "Virág út - Baross körút",
+          "time": {
+            "hour": 16,
+            "minute": 19
+          }
+        },
+        {
+          "stopId": 11,
+          "stopName": "Kalap út",
+          "time": {
+            "hour": 16,
+            "minute": 21
+          }
+        },
+        {
+          "stopId": 12,
+          "stopName": "Idősek Gondozóháza",
+          "time": {
+            "hour": 16,
+            "minute": 23
+          }
+        },
+        {
+          "stopId": 13,
+          "stopName": "Polgármesteri Hivatal",
+          "time": {
+            "hour": 16,
+            "minute": 25
+          }
+        },
+        {
+          "stopId": 14,
+          "stopName": "3A Takarék Szövetkezet",
+          "time": {
+            "hour": 16,
+            "minute": 27
+          }
+        },
+        {
+          "stopId": 15,
+          "stopName": "Balog sarok",
+          "time": {
+            "hour": 16,
+            "minute": 29
+          }
+        },
+        {
+          "stopId": 16,
+          "stopName": "Öcsödi út - Tavaszmező út",
+          "time": {
+            "hour": 16,
+            "minute": 31
+          }
+        },
+        {
+          "stopId": 17,
+          "stopName": "Öcsödi út - Radnóti út",
+          "time": {
+            "hour": 16,
+            "minute": 33
+          }
+        },
+        {
+          "stopId": 18,
+          "stopName": "Tiszaföldvár vasútállomás ",
+          "time": {
+            "hour": 16,
+            "minute": 34
+          }
+        },
+        {
+          "stopId": 19,
+          "stopName": "Téglagyár",
+          "time": {
+            "hour": 16,
+            "minute": 36
+          }
+        },
+        {
+          "stopId": 20,
+          "stopName": "Penny Market",
+          "time": {
+            "hour": 16,
+            "minute": 38
+          }
+        },
+        {
+          "stopId": 7,
+          "stopName": "Ószőlői Gyógyszertár",
+          "time": {
+            "hour": 16,
+            "minute": 41
+          }
+        },
+        {
+          "stopId": 6,
+          "stopName": "Komondi féle megálló",
+          "time": {
+            "hour": 16,
+            "minute": 43
+          }
+        },
+        {
+          "stopId": 5,
+          "stopName": "Homoki elágazás",
+          "time": {
+            "hour": 16,
+            "minute": 45
+          }
+        },
+        {
+          "stopId": 4,
+          "stopName": "Egészségház",
+          "time": {
+            "hour": 16,
+            "minute": 48
+          }
+        },
+        {
+          "stopId": 3,
+          "stopName": "Homoki Általános Iskola",
+          "time": {
+            "hour": 16,
+            "minute": 49
+          }
+        },
+        {
+          "stopId": 2,
+          "stopName": "Bányai K. úti elágazás",
+          "time": {
+            "hour": 16,
+            "minute": 51
+          }
+        },
+        {
+          "stopId": 1,
+          "stopName": "Homok vasútállomás",
+          "time": {
+            "hour": 16,
+            "minute": 53
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,28 @@
   "Navigation": {
     "Home": "Tervező",
     "Map": "Térkép",
-    "Timetable": "Menetrend"
+    "Timetable": "Menetrend",
+    "Title": "Helyijárat"
+  },
+  "Planner": {
+    "Search": {
+      "Title": "Keresés",
+      "StopPlaceholder": "Honnan?",
+      "Button": "Keresés"
+    },
+    "ResultList": {
+      "Title": "Járatok"
+    },
+    "ResultItem": {
+      "StopTitle": "Megálló",
+      "NextStopTitle": "Következő megálló",
+      "Time": "Indulás"
+    }
+  },
+  "Map":{
+
+  },
+  "TimeTable": {
+
   }
 }

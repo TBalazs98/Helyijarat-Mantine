@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "location": {
+      "lat": "46.947281",
+      "lng": "20.269571"
+    },
+    "name": "Homok vasútállomás"
+  },
+  {
+    "id": 2,
+    "location": {
+      "lat": "46.948993",
+      "lng": "20.263050"
+    },
+    "name": "Bányai K. úti elágazás"
+  },
+  {
+    "id": 3,
+    "location": {
+      "lat": "46.950600",
+      "lng": "20.257025"
+    },
+    "name": "Homoki Általános Iskola"
+  },
+  {
+    "id": 4,
+    "location": {
+      "lat": "46.955339",
+      "lng": "20.246831"
+    },
+    "name": "Egészségház"
+  },
+  {
+    "id": 5,
+    "location": {
+      "lat": "46.959818",
+      "lng": "20.240891"
+    },
+    "name": "Homoki elágazás"
+  },
+  {
+    "id": 6,
+    "location": {
+      "lat": "46.966319",
+      "lng": "20.248712"
+    },
+    "name": "Komondi féle megálló"
+  },
+  {
+  "id": 7,
+    "location": {
+      "lat": "46.973071",
+      "lng": "20.254834"
+    },
+  "name": "Ószőlői Gyógyszertár"
+  },
+  {
+    "id": 8,
+    "location": {
+      "lat": "46.980265",
+      "lng": "20.254415"
+    },
+    "name": "Balog sarok - Virág út"
+  },
+  {
+    "id": 9,
+    "location": {
+      "lat": "46.982180",
+      "lng": "20.246394"
+    },
+    "name": "Virág út - Zöldfa út"
+  },
+  {
+    "id": 10,
+    "location": {
+      "lat": "46.983870",
+      "lng": "20.240496"
+    },
+    "name": "Virág út - Baross körút"
+  },
+  {
+    "id": 11,
+    "location": {
+      "lat": "46.987057",
+      "lng": "20.243987"
+    },
+    "name": "Kalap út"
+  },
+  {
+    "id": 12,
+    "location": {
+      "lat": "46.989381",
+      "lng": "20.244820"
+    },
+    "name": "Idősek Gondozóháza"
+  },
+  {
+    "id": 13,
+    "location": {
+      "lat": "46.992349",
+      "lng": "20.248046"
+    },
+    "name": "Polgármesteri Hivatal"
+  },
+  {
+    "id": 14,
+    "location": {
+      "lat": "46.98629",
+      "lng": "20.25120"
+    },
+    "name": "3A Takarék Szövetkezet"
+  },
+  {
+    "id": 15,
+    "location": {
+      "lat": "46.98051",
+      "lng": "20.25448"
+    },
+    "name": "Balog sarok"
+  },
+  {
+    "id": 16,
+    "location": {
+      "lat": "46.97488",
+      "lng": "20.26529"
+    },
+    "name": "Öcsödi út - Tavaszmező út"
+  },
+  {
+    "id": 17,
+    "location": {
+      "lat": "46.97295",
+      "lng": "20.27305"
+    },
+    "name": "Öcsödi út - Radnóti út"
+  },
+  {
+    "id": 18,
+    "location": {
+      "lat": "46.97592",
+      "lng": "20.27521"
+    },
+    "name": "Tiszaföldvár vasútállomás"
+  },
+  {
+    "id": 19,
+    "location": {
+      "lat": "46.97740",
+      "lng": "20.26724"
+    },
+    "name": "Téglagyár"
+  },
+  {
+    "id": 20,
+    "location": {
+      "lat": "46.97980",
+      "lng": "20.25634"
+    },
+    "name": "Penny Market"
+  }
+]
