@@ -5,3 +5,15 @@
     background-size: cover;
     background-position: center;
 }
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: bisque;
+}
+
+a.active{
+    color: red;
+}
+
+

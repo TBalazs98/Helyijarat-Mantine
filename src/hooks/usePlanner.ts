@@ -1,14 +1,27 @@
 import Stop from "../models/stop/Stop.ts";
 import {useEffect, useState} from "react";
 import Timetable from "../models/timetable/Timetable.ts";
-import {DateValue} from "@mantine/dates";
+import {useForm} from "@mantine/form";
+
+export interface SearchForm{
+    stopName: string,
+    dateTime: Date
+}
 
 export function usePlanner(){
-
     const [stops, setStops] = useState<string[]>([])
-    const [selectedStop, setSelectedStop] = useState<string>("")
     const [timeTable, setTimeTable] = useState<Timetable | undefined>(undefined)
-    const [date, setDate] = useState<DateValue>(new Date())
+
+    const form = useForm<SearchForm>({
+        initialValues: {
+            stopName: "",
+            dateTime: new Date(),
+        },
+        validate: {
+            stopName: (value) => ((value) ? null : "Töltsd ki!"),
+            dateTime: (value) => ((value) ? null : "Töltsd ki!"),
+        },
+    });
 
     useEffect(() => {
         async function GetStops(){
@@ -16,10 +29,6 @@ export function usePlanner(){
             const stops = await result.json() as Stop[]
 
             const names = stops.map(x => x.name)
-
-            if(names.length > 0){
-                setSelectedStop(names[0])
-            }
 
             setStops(names)
         }
@@ -40,9 +49,6 @@ export function usePlanner(){
     return {
         stops,
         timeTable,
-        selectedStop,
-        setSelectedStop,
-        date,
-        setDate
+        form
     }
 }

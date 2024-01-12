@@ -11,7 +11,7 @@ import {
 } from "@mantine/core";
 import {useDisclosure} from "@mantine/hooks";
 import {IconMoonStars, IconSunset2} from "@tabler/icons-react";
-import { Route, Routes, useNavigate} from "react-router-dom";
+import {NavLink, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import TimeTable from "./pages/TimeTable.tsx";
 import Map from "./pages/Map.tsx";
@@ -22,7 +22,6 @@ function App() {
     const [opened, { toggle }] = useDisclosure(false);
 
     const { t, i18n } = useTranslation();
-    const navigate = useNavigate();
     const { colorScheme, setColorScheme } = useMantineColorScheme();
 
     function handleLanguageChange()
@@ -55,9 +54,15 @@ function App() {
                     <Image src={"src/assets/crest.png"} w={"30px"}/>
                     <Title order={2}>{t('Navigation.Title')}</Title>
                     <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}}>
-                        <Button variant="subtle" onClick={() => navigate('/')}>{t('Navigation.Home')}</Button>
-                        <Button variant="subtle" onClick={() => navigate('/map')}>{t('Navigation.Map')}</Button>
-                        <Button variant="subtle" onClick={() => navigate('/timetable')}>{t('Navigation.Timetable')}</Button>
+                        <NavLink to="/" className={({isActive}) => isActive ? "active" : ""}>
+                            <Title order={4}>{t('Navigation.Home')}</Title>
+                        </NavLink>
+                        <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""}>
+                            <Title order={4}>{t('Navigation.Map')}</Title>
+                        </NavLink>
+                        <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : ""}>
+                            <Title order={4}>{t('Navigation.Timetable')}</Title>
+                        </NavLink>
                     </Group>
                     <ActionIcon variant="default" size={"lg"} style={{marginLeft: 'auto'}} onClick={() => handleLanguageChange()}>
                         { i18n.language == "hu" ? <span className="fi fi-gb"></span> : <span className="fi fi-hu"></span> }
