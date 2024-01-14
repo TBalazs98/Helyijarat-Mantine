@@ -3,7 +3,6 @@ import {
     ActionIcon,
     AppShell,
     Burger,
-    Button,
     Group,
     Image,
     Stack, Title,
@@ -12,7 +11,7 @@ import {
 import {useDisclosure} from "@mantine/hooks";
 import {IconMoonStars, IconSunset2} from "@tabler/icons-react";
 import {NavLink, Route, Routes} from "react-router-dom";
-import Home from "./pages/Home.tsx";
+import Planner from "./pages/Planner.tsx";
 import TimeTable from "./pages/TimeTable.tsx";
 import Map from "./pages/Map.tsx";
 import {useTranslation} from "react-i18next";
@@ -53,9 +52,9 @@ function App() {
                     />
                     <Image src={"src/assets/crest.png"} w={"30px"}/>
                     <Title order={2}>{t('Navigation.Title')}</Title>
-                    <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}}>
+                    <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}} className={"navContainer"}>
                         <NavLink to="/" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4}>{t('Navigation.Home')}</Title>
+                            <Title order={4}>{t('Navigation.Planner')}</Title>
                         </NavLink>
                         <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""}>
                             <Title order={4}>{t('Navigation.Map')}</Title>
@@ -72,20 +71,26 @@ function App() {
                     </ActionIcon>
                 </Group>
             </AppShell.Header>
-            <AppShell.Navbar>
-                <Stack>
-                    <Button variant="default">First</Button>
-                    <Button variant="default">Second</Button>
-                    <Button variant="default">Third</Button>
+            <AppShell.Navbar style={{zIndex: "5000"}}>
+                <Stack className={"navContainer"}>
+                    <NavLink to="/" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                        <Title order={4}>{t('Navigation.Planner')}</Title>
+                    </NavLink>
+                    <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                        <Title order={4}>{t('Navigation.Map')}</Title>
+                    </NavLink>
+                    <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                        <Title order={4}>{t('Navigation.Timetable')}</Title>
+                    </NavLink>
                 </Stack>
             </AppShell.Navbar>
 
             <AppShell.Main className={"home"}>
                 <Routes>
-                    <Route path={"/"} element={<Home/>} />
+                    <Route path={"/"} element={<Planner/>} />
                     <Route path={"/map"} element={<Map/>} />
                     <Route path={"/timetable"} element={<TimeTable/>} />
-                    <Route path={"*"} element={<Home/>} />
+                    <Route path={"*"} element={<Planner/>} />
                 </Routes>
             </AppShell.Main>
         </AppShell>

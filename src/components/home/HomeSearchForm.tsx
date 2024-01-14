@@ -3,17 +3,23 @@ import {DateTimePicker} from "@mantine/dates";
 import 'dayjs/locale/hu.js';
 import 'dayjs/locale/en-gb.js';
 import {useTranslation} from "react-i18next";
-import {usePlanner} from "../../hooks/usePlanner.ts";
+import {SearchForm} from "../../hooks/usePlanner.ts";
+import {UseFormReturnType} from "@mantine/form";
 
-function HomeSearchForm(){
+interface PlannerSearchProps{
+    stops: string[],
+    search: () => void,
+    form: UseFormReturnType<SearchForm>
+}
+
+
+function HomeSearchForm({stops, search, form}: PlannerSearchProps){
     const { i18n, t } = useTranslation();
-    const {stops, form } = usePlanner();
 
     return(
         <Card>
-            <form onSubmit={form.onSubmit((values, event) => {
+            <form onSubmit={form.onSubmit((_values, event) => {
                 event!.preventDefault()
-                console.log(values)
             })}>
                 <Grid>
                     <Grid.Col span={{ base: 12 }} style={{display: "flex", alignItems: "center", justifyContent: "flex-start"}}>
@@ -39,7 +45,7 @@ function HomeSearchForm(){
                         <DateTimePicker style={{flexGrow: "1"}} locale={i18n.language} {...form.getInputProps('dateTime')} />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, sm: 4 }} style={{display: "flex", alignItems: "flex-end", justifyContent: "center"}}>
-                        <Button type="submit" variant="filled">{t('Planner.Search.Button')}</Button>
+                        <Button type="submit" variant="filled" onClick={() => search()}>{t('Planner.Search.Button')}</Button>
                     </Grid.Col>
                 </Grid>
             </form>

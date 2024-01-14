@@ -5,23 +5,21 @@ import HomeSearchForm from "../components/home/HomeSearchForm.tsx";
 import HomeResultList from "../components/home/HomeResultList.tsx";
 import {usePlanner} from "../hooks/usePlanner.ts";
 
-function Home(){
+function Planner(){
 
-    const { timeTable} = usePlanner()
-
-    console.log(timeTable)
+    const { stops, form, searchResults, searchRoutes } = usePlanner()
 
     return (
         <Container>
             <Space visibleFrom={"sm"} h="100px"/>
             <Stack style={{marginTop: "20px", paddingBottom: "20px"}}>
-                <HomeSearchForm />
+                <HomeSearchForm stops={stops} search={searchRoutes} form={form}/>
                 <Space visibleFrom={"sm"} h="25px"/>
-                <HomeResultList/>
+                <HomeResultList items={searchResults}/>
             </Stack>
             <Space visibleFrom={"sm"} h="100px"/>
         </Container>
     )
 }
 
-export default Home
+export default Planner

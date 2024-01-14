@@ -9,3 +9,17 @@ export function formatTime(time: Time){
 
     return `${hour} : ${minute}`
 }
+
+export function isTimeBigger(time: Time, date: Date){
+    if(time.hour > date.getHours()){
+        return true
+    }
+
+    if(time.hour === date.getHours()){
+        if(time.minute > date.getMinutes()){
+            return true
+        }
+    }
+
+    return false
+}

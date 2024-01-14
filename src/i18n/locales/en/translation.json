@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "Home": "Planner",
+    "Planner": "Planner",
     "Map": "Map",
     "Timetable": "Timetable",
     "Title": "Local Bus"
@@ -17,7 +17,7 @@
     "ResultItem": {
       "StopTitle": "Stop",
       "NextStopTitle": "Next Stop",
-      "Time": "Departure"
+      "Time": "Arrival"
     }
   },
   "Map":{

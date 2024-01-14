@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "Home": "Tervező",
+    "Planner": "Tervező",
     "Map": "Térkép",
     "Timetable": "Menetrend",
     "Title": "Helyijárat"
@@ -17,7 +17,7 @@
     "ResultItem": {
       "StopTitle": "Megálló",
       "NextStopTitle": "Következő megálló",
-      "Time": "Indulás"
+      "Time": "Érkezés"
     }
   },
   "Map":{

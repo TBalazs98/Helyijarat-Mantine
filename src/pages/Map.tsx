@@ -5,15 +5,14 @@ import Stop from "../models/stop/Stop.ts";
 function MyComponent() {
     const map = useMapEvents({
         click: () => {
-            map.locate()
+            console.log(map.getBounds())
         },
-        locationfound: (location) => {
-            console.log('location found:', location)
-        },
-
     })
     return null
 }
+
+
+
 
 
 function Map(){
@@ -28,6 +27,13 @@ function Map(){
         GetStops().then()
     }, [])
 
+    const eventHandlers =
+        (stop: Stop) => ({
+            click() {
+                console.log(stop.name)
+            },
+        })
+
 
     return(
             <MapContainer center={[46.95, 20.24]} zoom={13} scrollWheelZoom={true} style={{ height:"calc(100vh - 60px" }}>
@@ -37,7 +43,7 @@ function Map(){
                 />
                 {stops.map(x => {
                     return (
-                        <Marker position={[x.location.lat, x.location.lng]}/>
+                        <Marker position={[x.location.lat, x.location.lng]} eventHandlers={eventHandlers(x)}/>
                     )
                 })}
 

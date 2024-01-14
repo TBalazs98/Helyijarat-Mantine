@@ -6,14 +6,18 @@
     background-position: center;
 }
 
-a{
+.navContainer > a{
     text-decoration: none;
     padding: 10px;
-    background-color: bisque;
 }
 
-a.active{
+.navContainer > a.active{
     color: red;
+}
+
+.navContainer > a:hover{
+    border-radius: 5px;
+    background-color: aquamarine;
 }
 
 
