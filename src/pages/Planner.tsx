@@ -1,8 +1,8 @@
 import {Container, Space, Stack} from "@mantine/core";
 import 'dayjs/locale/hu.js';
 import 'dayjs/locale/en-gb.js';
-import HomeSearchForm from "../components/home/HomeSearchForm.tsx";
-import HomeResultList from "../components/home/HomeResultList.tsx";
+import HomeSearchForm from "../components/planner/HomeSearchForm.tsx";
+import HomeResultList from "../components/planner/HomeResultList.tsx";
 import {usePlanner} from "../hooks/usePlanner.ts";
 
 function Planner(){

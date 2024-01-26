@@ -33,10 +33,12 @@ function TimeTable(){
                     </Group>
                     <Space h="25px"/>
                     { data.length > 0 && (
-                        <Table highlightOnHover withTableBorder>
-                            <TimeTableHeader data={data} isLoading={isLoading} />
-                            <TimeTableBody data={data} isLoading={isLoading}/>
-                        </Table>
+                        <Table.ScrollContainer minWidth={700}>
+                            <Table highlightOnHover withTableBorder>
+                                <TimeTableHeader data={data} isLoading={isLoading} />
+                                <TimeTableBody data={data} isLoading={isLoading}/>
+                            </Table>
+                        </Table.ScrollContainer>
                     )}
                 </Card>
             </Stack>

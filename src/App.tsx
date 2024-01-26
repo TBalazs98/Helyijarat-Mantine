@@ -42,7 +42,7 @@ function App() {
                 collapsed: { mobile: !opened, desktop: true },
             }}
         >
-            <AppShell.Header style={{paddingLeft: "5px", paddingRight: "5px"}}>
+            <AppShell.Header style={{paddingLeft: "5px", paddingRight: "5px"}} >
                 <Group align={"center"} gap={"xs"}  style={{ height: "100%"}}>
                     <Burger
                         opened={opened}
@@ -54,13 +54,13 @@ function App() {
                     <Title order={2}>{t('Navigation.Title')}</Title>
                     <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}} className={"navContainer"}>
                         <NavLink to="/" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4}>{t('Navigation.Planner')}</Title>
+                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Planner')}</Title>
                         </NavLink>
                         <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4}>{t('Navigation.Map')}</Title>
+                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Map')}</Title>
                         </NavLink>
                         <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4}>{t('Navigation.Timetable')}</Title>
+                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Timetable')}</Title>
                         </NavLink>
                     </Group>
                     <ActionIcon variant="default" size={"lg"} style={{marginLeft: 'auto'}} onClick={() => handleLanguageChange()}>

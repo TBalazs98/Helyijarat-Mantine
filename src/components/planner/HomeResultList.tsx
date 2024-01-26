@@ -10,8 +10,6 @@ interface PlannerResultProps{
 function HomeResultList({items}: PlannerResultProps){
     const { t } = useTranslation();
 
-    console.log("eredmények",items)
-
     return(
         <Card>
             <Title order={2}>{t('Planner.ResultList.Title')}</Title>
