@@ -1,5 +1,7 @@
-enum SearchState{
+export enum SearchState{
     Init = 1,
-    Successfull = 2,
-    Empty = 3
+    NoMoreBus = 2,
+    Sunday = 3,
+    Holiday = 4,
+    Success = 5
 }

@@ -11,13 +11,14 @@
     padding: 10px;
 }
 
-.navContainer > a.active{
-    color: red;
+.active{
+    color: var(--mantine-color-grape-yellow-7);
+}
+
+.notActive{
+    color: var(--mantine-color-water-blue-7);
 }
 
 .navContainer > a:hover{
-    border-radius: 5px;
-    background-color: var(--mantine-color-leaf-brown-7);
+    color: var(--mantine-color-grape-yellow-9);
 }
-
-

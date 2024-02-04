@@ -2,7 +2,7 @@ import '@mantine/core/styles.css';
 import {
     ActionIcon,
     AppShell,
-    Burger,
+    Burger, Divider,
     Group,
     Image,
     Stack, Title,
@@ -16,7 +16,6 @@ import TimeTable from "./pages/TimeTable.tsx";
 import Map from "./pages/Map.tsx";
 import {useTranslation} from "react-i18next";
 import "./App.css";
-
 function App() {
     const [opened, { toggle }] = useDisclosure(false);
 
@@ -53,14 +52,14 @@ function App() {
                     <Image src={"src/assets/crest.png"} w={"30px"}/>
                     <Title order={2}>{t('Navigation.Title')}</Title>
                     <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}} className={"navContainer"}>
-                        <NavLink to="/" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Planner')}</Title>
+                        <NavLink to="/" className={({isActive}) => isActive ? "active" : "notActive"}>
+                            <Title order={4}>{t('Navigation.Planner')}</Title>
                         </NavLink>
-                        <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Map')}</Title>
+                        <NavLink to="/map" className={({isActive}) => isActive ? "active" : "notActive"}>
+                            <Title order={4}>{t('Navigation.Map')}</Title>
                         </NavLink>
-                        <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : ""}>
-                            <Title order={4} c={"grape-yellow"}>{t('Navigation.Timetable')}</Title>
+                        <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : "notActive"}>
+                            <Title order={4}>{t('Navigation.Timetable')}</Title>
                         </NavLink>
                     </Group>
                     <ActionIcon variant="default" size={"lg"} style={{marginLeft: 'auto'}} onClick={() => handleLanguageChange()}>
@@ -73,15 +72,18 @@ function App() {
             </AppShell.Header>
             <AppShell.Navbar style={{zIndex: "5000"}}>
                 <Stack className={"navContainer"}>
-                    <NavLink to="/" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                    <NavLink to="/" className={({isActive}) => isActive ? "active" : "notActive"} onClick={() => toggle()} style={{ paddingBottom:"0px" }}>
                         <Title order={4}>{t('Navigation.Planner')}</Title>
                     </NavLink>
-                    <NavLink to="/map" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                    <Divider/>
+                    <NavLink to="/map" className={({isActive}) => isActive ? "active" : "notActive"} onClick={() => toggle()} style={{ paddingBottom:"0px", paddingTop: "0px" }}>
                         <Title order={4}>{t('Navigation.Map')}</Title>
                     </NavLink>
-                    <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : ""} onClick={() => toggle()}>
+                    <Divider/>
+                    <NavLink to="/timetable" className={({isActive}) => isActive ? "active" : "notActive"} onClick={() => toggle()} style={{ paddingBottom:"0px", paddingTop:"0px" }}>
                         <Title order={4}>{t('Navigation.Timetable')}</Title>
                     </NavLink>
+                    <Divider/>
                 </Stack>
             </AppShell.Navbar>
 

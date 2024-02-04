@@ -2,7 +2,7 @@ import {TimeTableRow} from "../../pages/TimeTable.tsx";
 import {Table} from "@mantine/core";
 import {formatTime} from "../../models/utility/Time.ts";
 
-interface TimeTableBodyProps{
+export interface TimeTableBodyProps{
     data: TimeTableRow[],
     isLoading: boolean
 }
