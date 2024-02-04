@@ -3,6 +3,7 @@ import {DateValue} from "@mantine/dates";
 import {TimeTableRow} from "../pages/TimeTable.tsx";
 import Timetable from "../models/timetable/Timetable.ts";
 
+
 export function useTimeTable(){
     const [date, setDate] = useState<DateValue>(new Date())
     const [isLoading, setIsLoading] = useState<boolean>(false)
@@ -14,7 +15,7 @@ export function useTimeTable(){
 
             const rows: TimeTableRow[] = []
 
-            const result = await fetch("src/assets/data/timetables/timetable.json")
+            const result = await fetch("/data/timetables/timetable.json")
             const timeTable = await result.json() as Timetable
 
 

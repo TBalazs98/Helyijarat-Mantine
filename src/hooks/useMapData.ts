@@ -44,6 +44,8 @@ export function useMapData(){
                 }
             }
 
+            console.log(stopTimes)
+
             const sorted = stopTimes.sort((a,b) => {
                 const value = timeComparer(a.time, b.time)
 
@@ -60,7 +62,7 @@ export function useMapData(){
     useEffect(() => {
         async function GetTimeTable(){
 
-            const result = await fetch(`src/assets/data/timetables/${import.meta.env.VITE_TIMETABLE}`)
+            const result = await fetch(`/data/timetables/${import.meta.env.VITE_TIMETABLE}`)
             const timeTable = await result.json() as Timetable
 
             setTimeTable(timeTable)
@@ -72,7 +74,7 @@ export function useMapData(){
             const trackFiles: string[] = JSON.parse(import.meta.env.VITE_TRACKS)
 
             trackFiles.map(async (file) => {
-                const result = await fetch(`src/assets/data/track/${file}`)
+                const result = await fetch(`/data/track/${file}`)
                 const track = await result.json() as LatLng[]
 
                 tracks.push(track)
@@ -83,7 +85,7 @@ export function useMapData(){
 
         async function GetStops(){
 
-            const result = await fetch(`src/assets/data/stops/${import.meta.env.VITE_STOPS}`)
+            const result = await fetch(`/data/stops/${import.meta.env.VITE_STOPS}`)
             const data = await result.json() as Stop[]
             setStops(data)
         }

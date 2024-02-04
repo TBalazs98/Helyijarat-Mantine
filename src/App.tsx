@@ -16,6 +16,8 @@ import TimeTable from "./pages/TimeTable.tsx";
 import Map from "./pages/Map.tsx";
 import {useTranslation} from "react-i18next";
 import "./App.css";
+import CrestUrl from "./assets/crest.png"
+
 function App() {
     const [opened, { toggle }] = useDisclosure(false);
 
@@ -49,7 +51,7 @@ function App() {
                         hiddenFrom="sm"
                         size="sm"
                     />
-                    <Image src={"src/assets/crest.png"} w={"30px"}/>
+                    <Image src={CrestUrl} w={"30px"}/>
                     <Title order={2}>{t('Navigation.Title')}</Title>
                     <Group align={"center"} justify={"space-around"} visibleFrom={"sm"} style={{flexGrow: "1"}} className={"navContainer"}>
                         <NavLink to="/" className={({isActive}) => isActive ? "active" : "notActive"}>

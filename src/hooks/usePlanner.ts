@@ -35,7 +35,7 @@ export function usePlanner(){
 
     useEffect(() => {
         async function GetStops(){
-            const result = await fetch("src/assets/data/stops/stops.json")
+            const result = await fetch("/data/stops/stops.json")
             const stops = await result.json() as Stop[]
 
             const names = stops.map(x => x.name)
@@ -44,7 +44,7 @@ export function usePlanner(){
         }
 
         async function GetTimeTable(){
-            const result = await fetch("src/assets/data/timetables/timetable.json")
+            const result = await fetch("/data/timetables/timetable.json")
             const timeTable = await result.json() as Timetable
 
             setTimeTable(timeTable)
